@@ -1,0 +1,50 @@
+{
+  "name": "tape-generators",
+  "version": "0.1.0",
+  "description": "Tape but with generator functions",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/tape-generators.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/tape-generators",
+  "contributors": [
+    {
+      "name": "Raynos"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/tape-generators/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "continuable-generators": "~0.1.7",
+    "tape": "~1.0.3"
+  },
+  "devDependencies": {
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/tape-generators/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node --harmony ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}
